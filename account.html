@@ -1,0 +1,154 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FS Shoping</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.
+    css"/>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png"  class="logo" alt="Fashion Street" height="50" width="150"></a>
+        <div>
+            <ul id="navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="shop.html">shop</a></li>
+                <li><a  href="blog.html">blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                <li><a class="active" href="sign.html">Account</a></li>
+                <li id="lg-bag"><a  href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="moblie">
+            
+            <a href="cart.html"><i class="fa fa-shopping-bag"></i></a>
+            <i id="bar" class="fa fa-outdent" ></i>
+        </div>
+    </section>
+
+    <!-- <section id="page-header" class="about-header" width="89.1%">
+       
+        <h2>#LET'S SIGN UP</h2>
+        
+        <p>Create Your Account!</p>
+        
+    </section> -->
+  
+   <section>
+    <div class="heroA">
+        <div class="form-box">
+           <div class="button-box">
+            <div id="btnA"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+           </div>
+           <div class="social-icons">
+            <img src="img/fb.png" > 
+            <img src="img/tw.png" > 
+     
+            <img src="img/gp.png" > 
+     
+         </div> 
+         <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id"required>
+            <input type="text" class="input-field" placeholder="Enter Password"required>
+            <input type="checkbox" class="chech-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log In</button>
+         </form>
+         <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id"required>
+          <input type="email" class="input-field" placeholder="E-mail ID"required>
+
+            <input type="text" class="input-field" placeholder="Enter Password"required>
+            <input type="checkbox" class="chech-box"><span>I agree to the terms & conditions</span>
+            <button type="submit" class="submit-btn">Register</button>
+         </form>
+        </div>
+    </div>
+
+   </section>
+   
+ 
+    <!-- <footer class="section-p1">
+       <div class="col">
+         <img src="img/logo.png" alt="" height="50" width="150">
+         <h4>Contact</h4>
+         <p><strong>Address:</strong> 95, MG Road, Camp, Pune, Maharashtra 411001 </p>
+        <p><strong>Phone:</strong>8605419129</p>
+        <p><strong>Hourrs:</strong>10:00 - 19:00,mon-sun</p>
+        <div class="follow">
+            <h4>Follow us</h4>
+            <div class="icon">
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-facebook-f"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-pinterest-p"></i>
+            </div>
+
+        </div>
+       </div> 
+       <div class="col">
+        <h4>About</h4>
+        <a href="#">About Us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Contact Us</a>
+       </div>
+
+       <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Whishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+       </div>
+
+       <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+            <img src="img/pay/play.jpg" alt="">
+            <img src="img/pay/app.jpg" alt="">
+        </div>
+        <p>Secured payment Gateways</p>
+        <img src="img/pay/pay.png" alt="">
+       </div>
+       <div class="copyright">
+        <p>© 2022,Raisoni Boys</p>
+       </div>
+    </footer> -->
+
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register(){
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0";
+
+        }
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
